@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "OILi68iGOGJ5iPEeYNiYkJfWPuvutZdeGMC5XsQwFQ6Ih0MNPOwp47vJIusMyFhY3n/DgJ39GnFom43ddf3l4Q==",
+  "success": true,
+  "projectFilePath": "/Users/devopsjester/repos/experiment/MyWeather/App/MyWeather.csproj",
+  "expectedPackageFiles": [
+    "/Users/devopsjester/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
+    "/Users/devopsjester/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
+    "/Users/devopsjester/.nuget/packages/serilog/3.0.1/serilog.3.0.1.nupkg.sha512",
+    "/Users/devopsjester/.nuget/packages/serilog.sinks.console/4.1.0/serilog.sinks.console.4.1.0.nupkg.sha512",
+    "/Users/devopsjester/.nuget/packages/system.commandline/2.0.0-beta4.22272.1/system.commandline.2.0.0-beta4.22272.1.nupkg.sha512",
+    "/Users/devopsjester/.nuget/packages/system.commandline.dragonfruit/0.4.0-alpha.22272.1/system.commandline.dragonfruit.0.4.0-alpha.22272.1.nupkg.sha512",
+    "/Users/devopsjester/.nuget/packages/system.commandline.namingconventionbinder/2.0.0-beta4.22272.1/system.commandline.namingconventionbinder.2.0.0-beta4.22272.1.nupkg.sha512",
+    "/Users/devopsjester/.nuget/packages/system.commandline.rendering/0.4.0-alpha.22272.1/system.commandline.rendering.0.4.0-alpha.22272.1.nupkg.sha512"
+  ],
+  "logs": []
+}

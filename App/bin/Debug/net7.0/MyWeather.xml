@@ -1,0 +1,173 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyWeather</name>
+    </assembly>
+    <members>
+        <member name="T:MyWeather.App.Models.Geocoding.BingMapsGeocodingResult">
+            <summary>
+            Represents the result of a Bing Maps geocoding request.
+            </summary>
+        </member>
+        <member name="P:MyWeather.App.Models.Geocoding.BingMapsGeocodingResult.StatusCode">
+            <summary>
+            Gets or sets the status code of the geocoding request.
+            </summary>
+        </member>
+        <member name="P:MyWeather.App.Models.Geocoding.BingMapsGeocodingResult.StatusDescription">
+            <summary>
+            Gets or sets the status description of the geocoding request.
+            </summary>
+        </member>
+        <member name="P:MyWeather.App.Models.Geocoding.BingMapsGeocodingResult.ResourceSets">
+            <summary>
+            Gets or sets the resource sets returned by the geocoding request.
+            </summary>
+        </member>
+        <member name="T:MyWeather.App.Models.Geocoding.ResourceSet">
+            <summary>
+            Represents a set of resources returned by a Bing Maps geocoding request.
+            </summary>
+        </member>
+        <member name="P:MyWeather.App.Models.Geocoding.ResourceSet.EstimatedTotal">
+            <summary>
+            Gets or sets the estimated total number of resources in the set.
+            </summary>
+        </member>
+        <member name="P:MyWeather.App.Models.Geocoding.ResourceSet.Resources">
+            <summary>
+            Gets or sets the resources in the set.
+            </summary>
+        </member>
+        <member name="T:MyWeather.App.Models.Geocoding.Resource">
+            <summary>
+            Represents a resource returned by a Bing Maps geocoding request.
+            </summary>
+        </member>
+        <member name="P:MyWeather.App.Models.Geocoding.Resource.Name">
+            <summary>
+            Gets or sets the name of the resource.
+            </summary>
+        </member>
+        <member name="P:MyWeather.App.Models.Geocoding.Resource.Point">
+            <summary>
+            Gets or sets the point associated with the resource.
+            </summary>
+        </member>
+        <member name="T:MyWeather.App.Models.Geocoding.Point">
+            <summary>
+            Represents a point on the Earth's surface.
+            </summary>
+        </member>
+        <member name="P:MyWeather.App.Models.Geocoding.Point.Coordinates">
+            <summary>
+            Gets or sets the coordinates of the point.
+            </summary>
+        </member>
+        <member name="T:MyWeather.App.Models.ReverseGeocoding.BingMapsReverseGeocodingResult">
+            <summary>
+            Represents the result of a reverse geocoding request to the Bing Maps REST Services API.
+            </summary>
+        </member>
+        <member name="P:MyWeather.App.Models.ReverseGeocoding.BingMapsReverseGeocodingResult.StatusCode">
+            <summary>
+            Gets or sets the status code of the reverse geocoding request.
+            </summary>
+        </member>
+        <member name="P:MyWeather.App.Models.ReverseGeocoding.BingMapsReverseGeocodingResult.StatusDescription">
+            <summary>
+            Gets or sets the status description of the reverse geocoding request.
+            </summary>
+        </member>
+        <member name="P:MyWeather.App.Models.ReverseGeocoding.BingMapsReverseGeocodingResult.ResourceSets">
+            <summary>
+            Gets or sets the array of resource sets returned by the reverse geocoding request.
+            </summary>
+        </member>
+        <member name="T:MyWeather.App.Models.ReverseGeocoding.ResourceSet">
+            <summary>
+            Represents a set of resources returned by a reverse geocoding request to the Bing Maps REST Services API.
+            </summary>
+        </member>
+        <member name="P:MyWeather.App.Models.ReverseGeocoding.ResourceSet.EstimatedTotal">
+            <summary>
+            Gets or sets the estimated total number of resources in the resource set.
+            </summary>
+        </member>
+        <member name="P:MyWeather.App.Models.ReverseGeocoding.ResourceSet.Resources">
+            <summary>
+            Gets or sets the array of resources in the resource set.
+            </summary>
+        </member>
+        <member name="T:MyWeather.App.Models.ReverseGeocoding.Resource">
+            <summary>
+            Represents a resource returned by a reverse geocoding request to the Bing Maps REST Services API.
+            </summary>
+        </member>
+        <member name="P:MyWeather.App.Models.ReverseGeocoding.Resource.Name">
+            <summary>
+            Gets or sets the name of the resource.
+            </summary>
+        </member>
+        <member name="P:MyWeather.App.Models.ReverseGeocoding.Resource.Address">
+            <summary>
+            Gets or sets the address of the resource.
+            </summary>
+        </member>
+        <member name="T:MyWeather.App.Models.ReverseGeocoding.Address">
+            <summary>
+            Represents an address returned by a reverse geocoding request to the Bing Maps REST Services API.
+            </summary>
+        </member>
+        <member name="P:MyWeather.App.Models.ReverseGeocoding.Address.CountryRegion">
+            <summary>
+            Gets or sets the country or region of the address.
+            </summary>
+        </member>
+        <member name="P:MyWeather.App.Models.ReverseGeocoding.Address.AdminDistrict">
+            <summary>
+            Gets or sets the first-level administrative division of the address, such as a state or province.
+            </summary>
+        </member>
+        <member name="P:MyWeather.App.Models.ReverseGeocoding.Address.AdminDistrict2">
+            <summary>
+            Gets or sets the second-level administrative division of the address, such as a county or district.
+            </summary>
+        </member>
+        <member name="T:MyWeather.App.Models.Weather.WeatherResult">
+            <summary>
+            Represents the result of a weather request from the OpenWeatherMap API.
+            </summary>
+        </member>
+        <member name="P:MyWeather.App.Models.Weather.WeatherResult.Weather">
+            <summary>
+            Gets or sets the weather conditions for the location.
+            </summary>
+        </member>
+        <member name="P:MyWeather.App.Models.Weather.WeatherResult.Main">
+            <summary>
+            Gets or sets the main weather parameters for the location.
+            </summary>
+        </member>
+        <member name="T:MyWeather.App.Models.Weather.Weather">
+            <summary>
+            Represents the weather conditions for a location.
+            </summary>
+        </member>
+        <member name="P:MyWeather.App.Models.Weather.Weather.Description">
+            <summary>
+            Gets or sets the description of the weather conditions.
+            </summary>
+        </member>
+        <member name="T:MyWeather.App.Models.Weather.Main">
+            <summary>
+            Represents the main weather parameters for a location.
+            </summary>
+        </member>
+        <member name="P:MyWeather.App.Models.Weather.Main.Temp">
+            <summary>
+            Gets or sets the temperature in Kelvin.
+            </summary>
+        </member>
+    </members>
+</doc>
